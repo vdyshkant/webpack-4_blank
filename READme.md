@@ -17,3 +17,6 @@ $ npm i -g webpack webpack-cli
 
 then try to test our code: console.log(helloworld..)
 $ node dist/bundle.js
+
+try to run a command in dev mode (without file optimizations and minifyings):
+$ webpack --mode development
