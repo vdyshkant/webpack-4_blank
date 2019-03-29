@@ -25,4 +25,11 @@ https://webpack.js.org/plugins/html-webpack-plugin/
 $ npm install --save-dev html-webpack-plugin
 
 
+adding loaders:
+https://webpack.js.org/loaders/css-loader/
+$ npm install --save-dev css-loader
+
+https://webpack.js.org/loaders/style-loader/
+$ npm install style-loader --save-dev
+
 
