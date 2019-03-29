@@ -20,3 +20,9 @@ $ node dist/bundle.js
 
 try to run a command in dev mode (without file optimizations and minifyings):
 $ webpack --mode development
+
+https://webpack.js.org/plugins/html-webpack-plugin/
+$ npm install --save-dev html-webpack-plugin
+
+
+
