@@ -8,3 +8,12 @@ $
 npm install --save-dev webpack webpack-cli
 
 
+adding initial webpack config
+
+$ webpack 
+e.g. we try to run webpack, and test if it works
+if errors, try to install webpack globally:
+$ npm i -g webpack webpack-cli
+
+then try to test our code: console.log(helloworld..)
+$ node dist/bundle.js
