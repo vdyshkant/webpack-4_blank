@@ -66,5 +66,6 @@ https://webpack.js.org/loaders/sass-loader/
 $ npm install sass-loader node-sass --save-dev
 
 
-
+$ npm i -S react react-dom
+$ npm install --save-dev @babel/preset-react
 
