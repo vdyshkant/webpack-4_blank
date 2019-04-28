@@ -1,6 +1,18 @@
 
-** 'npm install -D %package%' is alternative command for 'npm install --save-dev %package%'
-** note that devDependencies are not included in your final project. It is only needed for bundling.
+# WebPack 4+ BLANK
+
+
+## * ES6, SCSS, React JSX, mini(ugly)fy support
+
+
+
+
+* 'npm install -D %package%' is alternative command for 'npm install --save-dev %package%'
+
+
+* note that devDependencies are not included in your final project. It is only needed for bundling.
+
+### Legend
 
 $ npm init -y
 
