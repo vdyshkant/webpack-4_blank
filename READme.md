@@ -49,4 +49,12 @@ https://webpack.js.org/plugins/uglifyjs-webpack-plugin
 $ npm install uglifyjs-webpack-plugin --save-dev
 !!uglifyjs-webpack-plugin -- natively works only with ES5 syntax
 
+...
+https://webpack.js.org/configuration/dev-server
+$ npm install -D webpack-dev-server
 
+https://babeljs.io
+...
+
+https://webpack.js.org/loaders/babel-loader
+$ npm install -D babel-loader
