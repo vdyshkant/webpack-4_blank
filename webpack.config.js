@@ -13,7 +13,7 @@ module.exports = {
     optimization: {
         minimizer: [
             new OptimizeCSSAssetsPlugin({}),
-            // new UglifyJsPlugin({})
+            new UglifyJsPlugin({})
         ],
     },
     devServer: {
