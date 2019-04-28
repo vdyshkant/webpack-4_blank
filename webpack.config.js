@@ -9,6 +9,11 @@ module.exports = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
     },
+    optimization: {
+        minimizer: [
+            new OptimizeCSSAssetsPlugin({})
+        ],
+    },
     plugins: [
         new HTMLplugin({
             filename: 'index.html',
