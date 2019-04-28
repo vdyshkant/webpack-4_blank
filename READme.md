@@ -21,6 +21,7 @@ $ node dist/bundle.js
 try to run a command in dev mode (without file optimizations and minifyings):
 $ webpack --mode development
 
+
 https://webpack.js.org/plugins/html-webpack-plugin/
 $ npm install --save-dev html-webpack-plugin
 
@@ -29,7 +30,23 @@ adding loaders:
 https://webpack.js.org/loaders/css-loader/
 $ npm install --save-dev css-loader
 
+
 https://webpack.js.org/loaders/style-loader/
 $ npm install style-loader --save-dev
+
+
+https://webpack.js.org/plugins/extract-text-webpack-plugin/
+!:warning: Since webpack v4 the extract-text-webpack-plugin should not be used for css. Use mini-css-extract-plugin instead.
+https://webpack.js.org/plugins/mini-css-extract-plugin/
+$ npm install --save-dev mini-css-extract-plugin
+
+for minimizing prod css file data:
+https://github.com/NMFR/optimize-css-assets-webpack-plugin
+$ npm install --save-dev optimize-css-assets-webpack-plugin
+
+in prod bundle.js minification broked. so, go to:
+https://webpack.js.org/plugins/uglifyjs-webpack-plugin
+$ npm install uglifyjs-webpack-plugin --save-dev
+!!uglifyjs-webpack-plugin -- natively works only with ES5 syntax
 
 
