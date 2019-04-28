@@ -58,3 +58,13 @@ https://babeljs.io
 
 https://webpack.js.org/loaders/babel-loader
 $ npm install -D babel-loader
+
+...
+
+https://webpack.js.org/loaders#styling
+https://webpack.js.org/loaders/sass-loader/
+$ npm install sass-loader node-sass --save-dev
+
+
+
+

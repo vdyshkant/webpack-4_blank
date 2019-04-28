@@ -81,61 +81,78 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports) {
+/******/ ({
 
-console.log('Header component here');
-
-/***/ }),
-/* 1 */
+/***/ "./src/css/index.css":
+/*!***************************!*\
+  !*** ./src/css/index.css ***!
+  \***************************/
+/*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/css/index.css?");
 
 /***/ }),
-/* 2 */
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_app_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/app.service */ \"./src/modules/app.service.js\");\n/* harmony import */ var _modules_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/config */ \"./src/modules/config.js\");\n/* harmony import */ var _modules_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/header.component */ \"./src/modules/header.component.js\");\n/* harmony import */ var _modules_header_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_header_component__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/index.css */ \"./src/css/index.css\");\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scss/index.scss */ \"./src/scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_4__);\n // importing ES6 module\n\n\n\n\n\nconsole.log('Config key: ', _modules_config__WEBPACK_IMPORTED_MODULE_1__[\"config\"].key);\nvar service = new _modules_app_service__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('Hello, buddy!');\nservice.log();\n\n//# sourceURL=webpack:///./src/index.js?");
 
-// CONCATENATED MODULE: ./src/modules/app.service.js
-class AppService {
-    constructor(text) {
-        this.text = text
-    }
+/***/ }),
 
-    log() {
-        console.log('[App service]:', this.text)
-    }
-}
-// CONCATENATED MODULE: ./src/modules/config.js
-const config = {
-    key: '123456'
-}
-// EXTERNAL MODULE: ./src/modules/header.component.js
-var header_component = __webpack_require__(0);
+/***/ "./src/modules/app.service.js":
+/*!************************************!*\
+  !*** ./src/modules/app.service.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// EXTERNAL MODULE: ./src/css/index.css
-var css = __webpack_require__(1);
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return AppService; });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar AppService =\n/*#__PURE__*/\nfunction () {\n  function AppService(text) {\n    _classCallCheck(this, AppService);\n\n    this.text = text;\n  }\n\n  _createClass(AppService, [{\n    key: \"log\",\n    value: function log() {\n      console.log('[App service]:', this.text);\n    }\n  }]);\n\n  return AppService;\n}();\n\n\n\n//# sourceURL=webpack:///./src/modules/app.service.js?");
 
-// CONCATENATED MODULE: ./src/index.js
+/***/ }),
 
-// importing ES6 module
+/***/ "./src/modules/config.js":
+/*!*******************************!*\
+  !*** ./src/modules/config.js ***!
+  \*******************************/
+/*! exports provided: config */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"config\", function() { return config; });\nvar config = {\n  key: '123456'\n};\n\n//# sourceURL=webpack:///./src/modules/config.js?");
 
+/***/ }),
 
+/***/ "./src/modules/header.component.js":
+/*!*****************************************!*\
+  !*** ./src/modules/header.component.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
+eval("console.log('Header component her2e');\n\n//# sourceURL=webpack:///./src/modules/header.component.js?");
 
+/***/ }),
 
-console.log('Config key: ', config.key);
+/***/ "./src/scss/index.scss":
+/*!*****************************!*\
+  !*** ./src/scss/index.scss ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-const service = new AppService('Hello, buddy!');
-service.log()
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/scss/index.scss?");
 
 /***/ })
-/******/ ]);
+
+/******/ });
