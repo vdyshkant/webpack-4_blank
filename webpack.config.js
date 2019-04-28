@@ -12,7 +12,8 @@ module.exports = {
     },
     optimization: {
         minimizer: [
-            new OptimizeCSSAssetsPlugin({})
+            new OptimizeCSSAssetsPlugin({}),
+            // new UglifyJsPlugin({})
         ],
     },
     plugins: [
