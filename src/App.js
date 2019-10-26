@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react';
 
 export default class App extends React.Component {
     render() {
@@ -10,6 +10,9 @@ export default class App extends React.Component {
 
                 <hr className="empty" />
 
+                {/* change 'symlink' to 'static': */}
+                <img width="100" src="/symlink/01.png" alt="test-img-01" />
+                <img width="100" src="symlink/02.jpg" alt="test-img-02" />
 
                 <main></main>
 
