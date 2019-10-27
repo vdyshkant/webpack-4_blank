@@ -15,4 +15,4 @@ console.log('Config key: ', config.key);
 const service = new AppService('Hello, buddy!')
 service.log()
 
-render(<App />, document.getElementById('app'))
+render(<App />, document.getElementById('root'))
