@@ -40,6 +40,13 @@ module.exports = {
           },
         }),
     ],
+    resolve: {
+      modules: ['node_modules', path.resolve(__dirname, '/'), '.'],
+      extensions: ['.js', '.jsx', '.css', '.scss'],
+      alias: {
+        '@components': path.resolve(__dirname, 'src/components'),
+      },
+    },
     module: {
         rules: [
             {
