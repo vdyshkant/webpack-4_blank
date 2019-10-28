@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 function SpriteIcon({ iconId, width = 16, height = 16, className = 'icon' }) {
   return (
     <svg className={className} width={width} height={height}>
-      <use xlinkHref={`./svg.svg#${iconId}`} />
+      <use xlinkHref={`./sprites.svg#${iconId}`} />
     </svg>
   );
 }
