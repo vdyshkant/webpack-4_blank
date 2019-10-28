@@ -3,6 +3,7 @@ const HTMLplugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const SVGSpriteMapPlugin = require('svg-spritemap-webpack-plugin')
 
 module.exports = {
     entry: './src/index.js',
@@ -27,7 +28,17 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({
             filename: 'style.css'
-        })
+        }),
+        new SVGSpriteMapPlugin('./src/svg/*.svg', {
+          output: {
+            filename: 'sprites.svg',
+            svg4everybody: true,
+            svgo: true,
+          },
+          sprite: {
+              prefix: 'spr-',
+          },
+        }),
     ],
     module: {
         rules: [
