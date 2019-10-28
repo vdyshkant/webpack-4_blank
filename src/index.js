@@ -1,6 +1,6 @@
 import React from 'react'
 import {render} from 'react-dom'
-import App from './App'
+import Main from './Main'
 import AppService from './modules/app.service'
 // importing ES6 module
 import {config} from './modules/config'
@@ -15,4 +15,4 @@ console.log('Config key: ', config.key);
 const service = new AppService('Hello, buddy!')
 service.log()
 
-render(<App />, document.getElementById('root'))
+render(<Main />, document.getElementById('root'))
