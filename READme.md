@@ -4,7 +4,7 @@
 
 ## * ES6, SCSS, React JSX, mini(ugly)fy support
 
-
+* DO NOT use Yarn. To avoid errors use NPM instead.
 
 
 * 'npm install -D %package%' is alternative command for 'npm install --save-dev %package%'
